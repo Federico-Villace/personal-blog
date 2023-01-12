@@ -11,9 +11,9 @@ const Header = (): JSX.Element => {
           </p>
         </div>
         <div className="flex gap-8 font-Inconsolata">
-          <Button variant={"primary"} text={"Home"} />
-          <Button variant={"secondary"} text={"Proyects"} />
-          <Button variant={"secondary"} text={"About Me"} />
+          <Button variant={"primary"} text={"About Me"} />
+          <Button variant={"secondary"} text={"Skills"} />
+          <Button variant={"secondary"} text={"Projects"} />
           <Button variant={"secondary"} text={"Contact Me"} />
         </div>
       </div>

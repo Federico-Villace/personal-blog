@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "../Header";
+import Skills from "../Skills";
 
 const Landing = (): JSX.Element => {
   return (
@@ -19,6 +20,7 @@ const Landing = (): JSX.Element => {
           </div>
         </div>
       </div>
+      <Skills />
     </div>
   );
 };

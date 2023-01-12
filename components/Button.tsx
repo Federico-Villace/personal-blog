@@ -23,11 +23,11 @@ const Button: React.FC<ButtonProps> = ({
       case "primary":
         return `${
           fullWidth && "w-full"
-        } shadow-[0px_4px_4px_rgba(0,0,0,0.25)] rounded-[10px] min-h-[49px] min-w-[125px] text-Inconsolata text-lg text-white bg-purple hover:bg-blue active:bg-peach`;
+        } shadow-[0px_4px_4px_rgba(0,0,0,0.25)] rounded-[10px] min-h-[35px] min-w-[100px] text-Inconsolata text-lg text-white bg-purple hover:bg-blue active:bg-peach`;
       case "secondary":
         return `${
           fullWidth && "w-full"
-        }  bg-white shadow-[0px_4px_4px_rgba(0,0,0,0.25)] rounded-[10px] min-h-[49px] min-w-[125px] text-Inconsolata text-lg text-purple hover:text-blue hover:border-peach active:text-peach active:border-peach`;
+        }  bg-white shadow-[0px_4px_4px_rgba(0,0,0,0.25)] rounded-[10px] min-h-[35px] min-w-[100px] text-Inconsolata text-lg text-purple hover:text-blue hover:border-peach active:text-peach active:border-peach`;
     }
   };
   return (
