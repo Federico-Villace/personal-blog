@@ -49,10 +49,27 @@ export const MOCKS_ICON = [
   },
 ];
 
+export const MOCK_PROJECTS = [
+  {
+    title: "Litapp",
+    description:
+      "Litapp is the place to find a comparison between the best prices of the top Argentine supermarkets and you will be able to decide your purchase",
+    src: "https://litapp.cuneo.com.ar/",
+    background: "/images/backgrounds/litapp01.png",
+  },
+  {
+    title: "Github",
+    description:
+      "My github account where you can find minor projects and exercises of different difficulty.",
+    src: "https://github.com/Federico-Villace",
+    background: "/images/backgrounds/github01.png",
+  },
+];
+
 export const MOCK_FOOTER = [
   {
     Email: "federicovillace@gmail.com",
     Phone: "(+54) 91131033376",
-    Address: "Murguiondo 3821 3C, Ciudad de Buenos Aires, Argentina",
+    Linkedin: "https://www.linkedin.com/in/federico-villace/",
   },
 ];

@@ -10,6 +10,7 @@ module.exports = {
         "light-purple": "#d2ccff",
         "super-light-purple": "#e9e6ff",
         blue: "#C0DEFF",
+        "linkedin-blue": "#0073b1",
         peach: "#FFE5F1",
         yellow: "#fff9e5",
         "light-yellow": "#FAF8F1",

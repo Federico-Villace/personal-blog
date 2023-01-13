@@ -1,6 +1,7 @@
 import React from "react";
 import Footer from "../Footer";
 import Header from "../Header";
+import Projects from "../Projects";
 import Skills from "../Skills";
 
 const Landing = (): JSX.Element => {
@@ -19,12 +20,13 @@ const Landing = (): JSX.Element => {
           <div className="flex flex-col max-w-xl items-center text-center font-normal text-lg">
             <p>
               + 2 years of experience working with innovative products and
-              creating high end solutions
+              creating high-end solutions
             </p>
           </div>
         </div>
       </div>
       <Skills />
+      <Projects />
       <Footer />
     </div>
   );

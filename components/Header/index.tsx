@@ -13,8 +13,12 @@ const Header = (): JSX.Element => {
         <div className="flex flex-wrap gap-8 font-Inconsolata ">
           <Button variant={"primary"} text={"About Me"} href={"#AboutMe"} />
           <Button variant={"secondary"} text={"Skills"} href={"#Skills"} />
-          <Button variant={"secondary"} text={"Projects"} />
-          <Button variant={"secondary"} text={"Contact Me"} />
+          <Button variant={"secondary"} text={"Projects"} href={"#Projects"} />
+          <Button
+            variant={"secondary"}
+            text={"Contact Me"}
+            href={"#ContactMe"}
+          />
         </div>
       </div>
     </div>
