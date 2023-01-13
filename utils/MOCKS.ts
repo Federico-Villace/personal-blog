@@ -48,3 +48,11 @@ export const MOCKS_ICON = [
     alt: "slack",
   },
 ];
+
+export const MOCK_FOOTER = [
+  {
+    Email: "federicovillace@gmail.com",
+    Phone: "(+54) 91131033376",
+    Address: "Murguiondo 3821 3C, Ciudad de Buenos Aires, Argentina",
+  },
+];

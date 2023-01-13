@@ -3,7 +3,7 @@ import Button from "../Button";
 
 const Header = (): JSX.Element => {
   return (
-    <div className="flex items-center w-full h-[120px] bg-light-yellow border-1 border-black border-b-black ">
+    <div className="flex items-center w-full h-[120px] bg-light-yellow">
       <div className="flex flex-wrap items-center w-full mx-[30px] justify-between capitalize">
         <div>
           <p className="text-[60px] font-light text-purple drop-shadow-lg">

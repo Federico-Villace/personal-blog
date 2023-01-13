@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../Footer";
 import Header from "../Header";
 import Skills from "../Skills";
 
@@ -24,6 +25,7 @@ const Landing = (): JSX.Element => {
         </div>
       </div>
       <Skills />
+      <Footer />
     </div>
   );
 };
