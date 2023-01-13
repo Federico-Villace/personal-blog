@@ -7,6 +7,7 @@ export interface ButtonProps extends React.ComponentPropsWithoutRef<"button"> {
   border?: string;
   loading?: boolean;
   fullWidth?: boolean;
+  href?: string;
 }
 
 const Button: React.FC<ButtonProps> = ({
@@ -16,6 +17,7 @@ const Button: React.FC<ButtonProps> = ({
   border,
   loading,
   fullWidth,
+  href,
   ...props
 }): JSX.Element => {
   const selectProperButton = (type: "primary" | "secondary"): string => {
