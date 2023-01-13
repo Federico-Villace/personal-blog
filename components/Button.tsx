@@ -33,15 +33,17 @@ const Button: React.FC<ButtonProps> = ({
     }
   };
   return (
-    <button
-      className={`flex items-center justify-center px-5 
+    <a href={href}>
+      <button
+        className={`flex items-center justify-center px-5 
       ${border && "border-[1px] border-purple"} 
       ${selectProperButton(variant)}`}
-      disabled={loading ? true : false}
-      {...props}
-    >
-      {icon && icon} {text}
-    </button>
+        disabled={loading ? true : false}
+        {...props}
+      >
+        {icon && icon} {text}
+      </button>
+    </a>
   );
 };
 
