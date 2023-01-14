@@ -17,7 +17,10 @@ const Footer = () => {
         </div>
         {MOCK_FOOTER.map((item) => {
           return (
-            <div className="grid grid-rows-3 font-light text-sm text-gray">
+            <div
+              className="grid grid-rows-3 font-light text-sm text-gray"
+              key={item.id}
+            >
               <div>
                 {` Email: `}
                 {item.Email}
@@ -27,7 +30,7 @@ const Footer = () => {
                 {item.Phone}
               </div>
               <div className="my-[3px]">
-                <a href={item.Linkedin} target={"_blank"}>
+                <a href={item.Linkedin} target={"_blank"} rel="noreferrer">
                   <svg
                     type="linkedin-logo"
                     color="#0073b1"
