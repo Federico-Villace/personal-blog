@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 import { MOCKS_ICON } from "../../utils/MOCKS";
 
@@ -14,7 +15,7 @@ const Skills = () => {
           {MOCKS_ICON.map((item) => {
             return (
               <div key={item.id}>
-                <img
+                <Image
                   src={item.icon}
                   alt={item.alt}
                   className="max-w-[64px] my-[16px]"

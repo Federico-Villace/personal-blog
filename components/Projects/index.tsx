@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 import { MOCK_PROJECTS } from "../../utils/MOCKS";
 
@@ -20,9 +21,10 @@ const Projects = () => {
                 target={"_blank"}
                 rel="noreferrer"
               >
-                <img
+                <Image
                   src={item.background}
                   className="object-cover w-full max-h-[150px]"
+                  alt={item.title}
                 />
                 <div className="w-full p-4">
                   <p className="mb-2 text-lg">{item.title}</p>
