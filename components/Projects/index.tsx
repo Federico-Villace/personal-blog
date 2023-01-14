@@ -8,7 +8,7 @@ const Projects = () => {
       <div className="mt-[30px]">
         <h3 className="text-blue text-3xl p-4 font-semibold">Projects</h3>
       </div>
-      <div className="grid grid-cols-2 gap-10 mb-[150px]">
+      <div className="grid xl:grid-cols-2 md:grid-cols-1 gap-10 mb-[150px]">
         {MOCK_PROJECTS.map((item) => {
           return (
             <div
@@ -25,6 +25,8 @@ const Projects = () => {
                   src={item.background}
                   className="object-cover w-full max-h-[150px]"
                   alt={item.title}
+                  width={320}
+                  height={150}
                 />
                 <div className="w-full p-4">
                   <p className="mb-2 text-lg">{item.title}</p>

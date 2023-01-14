@@ -19,6 +19,8 @@ const Skills = () => {
                   src={item.icon}
                   alt={item.alt}
                   className="max-w-[64px] my-[16px]"
+                  width={80}
+                  height={80}
                 />
               </div>
             );
