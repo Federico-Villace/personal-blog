@@ -10,11 +10,15 @@ const Projects = () => {
       <div className="grid grid-cols-2 gap-10 mb-[150px]">
         {MOCK_PROJECTS.map((item) => {
           return (
-            <div className="m-auto overflow-hidden rounded-lg shadow-lg cursor-pointer my-[30px] h-90 w-60 md:w-80">
+            <div
+              className="m-auto overflow-hidden rounded-lg shadow-lg cursor-pointer my-[30px] h-90 w-60 md:w-80"
+              key={item.id}
+            >
               <a
                 href={item.src}
                 className="block w-full h-full"
                 target={"_blank"}
+                rel="noreferrer"
               >
                 <img
                   src={item.background}

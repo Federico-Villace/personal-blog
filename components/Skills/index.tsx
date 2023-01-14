@@ -13,11 +13,13 @@ const Skills = () => {
         <div className="grid grid-cols-4 gap-1 place-content-center place-items-center mx-16 mb-[50px]">
           {MOCKS_ICON.map((item) => {
             return (
-              <img
-                src={item.icon}
-                alt={item.alt}
-                className="max-w-[64px] my-[16px]"
-              />
+              <div key={item.id}>
+                <img
+                  src={item.icon}
+                  alt={item.alt}
+                  className="max-w-[64px] my-[16px]"
+                />
+              </div>
             );
           })}
         </div>

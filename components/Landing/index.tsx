@@ -14,7 +14,7 @@ const Landing = (): JSX.Element => {
       >
         <div className="flex flex-col items-center w-full justify-center">
           <div className="flex flex-col items-center p-5 font-normal text-5xl">
-            <h1>Hi!, I'm Federico Villace</h1>
+            <h1>Hi!, I am Federico Villace</h1>
             <h2 className="text-purple p-2">Full Stack Developer</h2>
           </div>
           <div className="flex flex-col max-w-xl items-center text-center font-normal text-lg">
