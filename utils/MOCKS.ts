@@ -65,8 +65,8 @@ export const MOCK_PROJECTS = [
   {
     title: "Litapp",
     description:
-      "Litapp is the place to find a comparison between the best prices of the top Argentine supermarkets and you will be able to decide your purchase",
-    src: "https://litapp.cuneo.com.ar/",
+      "Litapp is the place to find a comparison between the best prices of the top Argentine supermarkets and you will be able to decide your purchase. (Test Data).",
+    src: "https://main.d6b1vgwegkj80.amplifyapp.com/",
     background: "/images/backgrounds/litapp01.png",
     id: "1",
   },
