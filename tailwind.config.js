@@ -20,7 +20,7 @@ module.exports = {
         Inconsolata: ["Inconsolata", "monospace"],
       },
       screens: {
-        sm: '400px',
+        sm: '370px',
         md: '768px',
         lg: '976px',
         xl: '1440px',
