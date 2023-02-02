@@ -81,7 +81,7 @@ export const MOCK_PROJECTS = [
   {
     title: "Fix my english",
     description:
-      "Simple app to check your english grammar.",
+      "Simple app to check your english grammar with CO:HERE AI.",
     src: "https://cohere-app.vercel.app/",
     background: "/images/backgrounds/Fix-my-english.png",
     id: "3",
