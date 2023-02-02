@@ -78,6 +78,14 @@ export const MOCK_PROJECTS = [
     background: "/images/backgrounds/github01.png",
     id: "2",
   },
+  {
+    title: "Fix my english",
+    description:
+      "Simple app to check your english grammar.",
+    src: "https://cohere-app.vercel.app/",
+    background: "/images/backgrounds/Fix-my-english.png",
+    id: "3",
+  }
 ];
 
 export const MOCK_FOOTER = [
