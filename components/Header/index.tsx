@@ -11,9 +11,8 @@ const Header = (): JSX.Element => {
           </p>
         </div>
         <div className="flex flex-wrap gap-8 font-Inconsolata ">
-          <Button variant={"primary"} text={"About Me"} href={"#AboutMe"} />
           <Button variant={"secondary"} text={"Skills"} href={"#Skills"} />
-          <Button variant={"secondary"} text={"Projects"} href={"#Projects"} />
+          <Button variant={"primary"} text={"Projects"} href={"#Projects"} />
           <Button
             variant={"secondary"}
             text={"Contact Me"}
