@@ -80,12 +80,18 @@ export const MOCK_PROJECTS = [
   },
   {
     title: "Fix my english",
-    description:
-      "Simple app to check your english grammar with CO:HERE AI.",
+    description: "Simple app to check your english grammar with CO:HERE AI.",
     src: "https://cohere-app.vercel.app/",
     background: "/images/backgrounds/Fix-my-english.png",
     id: "3",
-  }
+  },
+  {
+    title: "Eccomerce Project",
+    description: "Eccomerce on development",
+    src: "https://shopping-cart-black-beta.vercel.app/",
+    background: "/images/backgrounds/Ecommerce.png",
+    id: "4",
+  },
 ];
 
 export const MOCK_FOOTER = [
