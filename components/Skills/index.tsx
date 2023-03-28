@@ -9,7 +9,7 @@ const Skills = () => {
       id="Skills"
     >
       <div className="flex flex-col w-full justify-center text-center my-[40px]">
-        <h3 className="text-blue text-3xl p-4 font-semibold">Skills</h3>
+        <h3 className="text-blue text-5xl p-4 font-semibold">Skills</h3>
 
         <div className="grid grid-cols-4 gap-1 place-content-center place-items-center mx-16 mb-[50px]">
           {MOCKS_ICON.map((item) => {
@@ -18,7 +18,7 @@ const Skills = () => {
                 <Image
                   src={item.icon}
                   alt={item.alt}
-                  className="max-w-[64px] my-[16px]"
+                  className="max-w-[64px] my-[16px] overflow-hidden bg-fixed transition duration-300 ease-in-out hover:opacity-[0.7] hover:scale-125"
                   width={80}
                   height={80}
                 />

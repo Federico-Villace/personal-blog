@@ -28,6 +28,7 @@ const Footer = () => {
                   viewBox="0 0 48 48"
                   width="40px"
                   height="40px"
+                  className="overflow-hidden bg-fixed transition duration-300 ease-in-out hover:opacity-[0.7] hover:scale-110"
                 >
                   <linearGradient
                     id="NvW_RwTAona1rlOp72mkqa"
@@ -73,7 +74,7 @@ const Footer = () => {
                   height="35px"
                   fill-rule="evenodd"
                   clip-rule="evenodd"
-                  className="mb-[3px] mx-[15px]"
+                  className="mb-[3px] mx-[15px] overflow-hidden bg-fixed transition duration-300 ease-in-out hover:opacity-[0.7] hover:scale-110"
                 >
                   <path
                     fill="#fff"
@@ -108,6 +109,7 @@ const Footer = () => {
                   aria-label="LinkedIn"
                   width="110"
                   height="40"
+                  className="overflow-hidden bg-fixed transition duration-300 ease-in-out hover:opacity-[0.7] hover:scale-110"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"

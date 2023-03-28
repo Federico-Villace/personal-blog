@@ -71,25 +71,25 @@ export const MOCK_PROJECTS = [
     id: "1",
   },
   {
+    title: "Eccomerce Project",
+    description: "Eccomerce on development",
+    src: "https://shopping-cart-black-beta.vercel.app/",
+    background: "/images/backgrounds/Ecommerce.png",
+    id: "2",
+  },
+  {
     title: "Github",
     description:
       "My github account where you can find minor projects and exercises of different difficulty.",
     src: "https://github.com/Federico-Villace",
     background: "/images/backgrounds/github01.png",
-    id: "2",
+    id: "3",
   },
   {
     title: "Fix my english",
     description: "Simple app to check your english grammar with CO:HERE AI.",
     src: "https://cohere-app.vercel.app/",
     background: "/images/backgrounds/Fix-my-english.png",
-    id: "3",
-  },
-  {
-    title: "Eccomerce Project",
-    description: "Eccomerce on development",
-    src: "https://shopping-cart-black-beta.vercel.app/",
-    background: "/images/backgrounds/Ecommerce.png",
     id: "4",
   },
 ];

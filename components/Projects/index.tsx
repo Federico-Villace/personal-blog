@@ -6,13 +6,13 @@ const Projects = () => {
   return (
     <div className="bg-light-yellow flex flex-col items-center" id="Projects">
       <div className="mt-[30px]">
-        <h3 className="text-blue text-3xl p-4 font-semibold">Projects</h3>
+        <h3 className="text-blue text-5xl p-4 font-semibold">Projects</h3>
       </div>
       <div className="grid xl:grid-cols-2 md:grid-cols-1 gap-10 mb-[150px]">
         {MOCK_PROJECTS.map((item) => {
           return (
             <ul
-              className="m-auto overflow-hidden rounded-lg shadow-lg cursor-pointer my-[30px] h-90 w-60 md:w-80"
+              className="m-auto overflow-hidden rounded-lg shadow-lg cursor-pointer my-[30px] h-90 w-60 md:w-80 overflow-hidden bg-fixed transition duration-300 ease-in-out hover:opacity-[0.7] hover:scale-110"
               key={item.id}
             >
               <li>
@@ -24,7 +24,7 @@ const Projects = () => {
                 >
                   <Image
                     src={item.background}
-                    className="object-cover w-full max-h-[150px]"
+                    className="object-cover w-full max-h-[150px] "
                     alt={item.title}
                     width={320}
                     height={150}
