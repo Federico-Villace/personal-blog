@@ -66,6 +66,8 @@ export const MOCK_PROJECTS = [
     title: "Litapp",
     description:
       "Litapp is the place to find a comparison between the best prices of the top Argentine supermarkets and you will be able to decide your purchase. (Test Data).",
+    features:
+      "Select one product and see where is the lowest price, compare the prices of the products over time.",
     src: "https://main.d6b1vgwegkj80.amplifyapp.com/",
     background: "/images/backgrounds/litapp01.png",
     id: "1",
@@ -73,24 +75,20 @@ export const MOCK_PROJECTS = [
   {
     title: "Eccomerce Project",
     description: "Eccomerce on development",
+    features:
+      "Get one product, simple with the Mercadolibre checkout, or select a bunch, and pay the way you want.",
     src: "https://shopping-cart-black-beta.vercel.app/",
     background: "/images/backgrounds/Ecommerce.png",
     id: "2",
   },
   {
-    title: "Github",
-    description:
-      "My github account where you can find minor projects and exercises of different difficulty.",
-    src: "https://github.com/Federico-Villace",
-    background: "/images/backgrounds/github01.png",
-    id: "3",
-  },
-  {
     title: "Fix my english",
     description: "Simple app to check your english grammar with CO:HERE AI.",
+    features:
+      "Introduce an english phrase and wait a few seconds until the AI does the work for you.",
     src: "https://cohere-app.vercel.app/",
     background: "/images/backgrounds/Fix-my-english.png",
-    id: "4",
+    id: "3",
   },
 ];
 
@@ -102,3 +100,5 @@ export const MOCK_FOOTER = [
     id: "1",
   },
 ];
+
+export const MOCK_PROYECTS_2 = [{}];

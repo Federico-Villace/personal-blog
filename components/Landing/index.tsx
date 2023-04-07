@@ -9,7 +9,7 @@ const Landing = (): JSX.Element => {
     <div>
       <Header />
       <div
-        className="flex items-center w-full h-[600px] bg-light-yellow font-Inconsolata p-6"
+        className="flex items-center w-full h-[600px] bg-light-yellow font-Inconsolata p-8"
         id="AboutMe"
       >
         <div className="flex flex-col items-center w-full justify-center">
@@ -17,7 +17,7 @@ const Landing = (): JSX.Element => {
             <h1>Hi!, I am Federico Villace</h1>
             <h2 className="text-purple p-2">Full Stack Developer</h2>
           </div>
-          <div className="flex flex-col max-w-xl items-center text-center font-normal text-lg">
+          <div className="flex flex-col max-w-xl items-center text-center font-normal text-lg ">
             <p>
               + 2 years of experience working with innovative products and
               creating high-end solutions
