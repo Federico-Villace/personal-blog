@@ -97,6 +97,7 @@ export const MOCK_FOOTER = [
     Email: "federicovillace@gmail.com",
     Phone: "(+54) 91131033376",
     Linkedin: "https://www.linkedin.com/in/federico-villace/",
+    Github: "https://github.com/Federico-Villace",
     id: "1",
   },
 ];

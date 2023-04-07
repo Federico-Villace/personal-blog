@@ -1,6 +1,7 @@
 import React from "react";
 import { MOCK_FOOTER } from "../../utils/MOCKS";
 import ReactWhatsapp from "react-whatsapp";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -19,10 +20,10 @@ const Footer = () => {
         {MOCK_FOOTER.map((item) => {
           return (
             <div
-              className="flex flex-row items-end content-end text-sm text-gray"
+              className="flex flex-row items-end content-end items-end text-sm text-gray"
               key={item.id}
             >
-              <a className="cursor-pointer" href={`mailto:${item.Email}`}>
+              <Link className="cursor-pointer" href={`mailto:${item.Email}`}>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 48 48"
@@ -60,7 +61,7 @@ const Footer = () => {
                     d="M35.926,17.488L29.414,24l6.511,6.511C35.969,30.347,36,30.178,36,30V18 C36,17.822,35.969,17.653,35.926,17.488z M26.688,23.899l7.824-7.825C34.347,16.031,34.178,16,34,16H14 c-0.178,0-0.347,0.031-0.512,0.074l7.824,7.825C22.795,25.38,25.205,25.38,26.688,23.899z M12.074,17.488 C12.031,17.653,12,17.822,12,18v12c0,0.178,0.031,0.347,0.074,0.512L18.586,24L12.074,17.488z M24,27.009 c-1.44,0-2.873-0.542-3.99-1.605l-6.522,6.522C13.653,31.969,13.822,32,14,32h20c0.178,0,0.347-0.031,0.512-0.074l-6.522-6.522 C26.873,26.467,25.44,27.009,24,27.009z"
                   />
                 </svg>
-              </a>
+              </Link>
 
               <ReactWhatsapp
                 number={item.Phone}
@@ -101,7 +102,7 @@ const Footer = () => {
                 </svg>
               </ReactWhatsapp>
 
-              <a href={item.Linkedin} target={"_blank"} rel="noreferrer">
+              <Link href={item.Linkedin} target={"_blank"} rel="noreferrer">
                 <svg
                   type="linkedin-logo"
                   color="#0073b1"
@@ -126,7 +127,44 @@ const Footer = () => {
                     </g>
                   </svg>
                 </svg>
-              </a>
+              </Link>
+              <Link href={item.Github} target={"_blank"}>
+                <svg
+                  width="35px"
+                  height="35px"
+                  viewBox="0 0 20 20"
+                  version="1.1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="ml-4 mb-[2px] overflow-hidden bg-fixed transition duration-300 ease-in-out hover:opacity-[0.7] hover:scale-110 cursor-pointer"
+                >
+                  <title>github [#142]</title>
+                  <desc>Created with Sketch.</desc>
+                  <defs></defs>
+                  <g
+                    id="Page-1"
+                    stroke="none"
+                    strokeWidth="1"
+                    fill="none"
+                    fillRule="evenodd"
+                  >
+                    <g
+                      id="Dribbble-Light-Preview"
+                      transform="translate(-140.000000, -7559.000000)"
+                      fill="#000000"
+                    >
+                      <g
+                        id="icons"
+                        transform="translate(56.000000, 160.000000)"
+                      >
+                        <path
+                          d="M94,7399 C99.523,7399 104,7403.59 104,7409.253 C104,7413.782 101.138,7417.624 97.167,7418.981 C96.66,7419.082 96.48,7418.762 96.48,7418.489 C96.48,7418.151 96.492,7417.047 96.492,7415.675 C96.492,7414.719 96.172,7414.095 95.813,7413.777 C98.04,7413.523 100.38,7412.656 100.38,7408.718 C100.38,7407.598 99.992,7406.684 99.35,7405.966 C99.454,7405.707 99.797,7404.664 99.252,7403.252 C99.252,7403.252 98.414,7402.977 96.505,7404.303 C95.706,7404.076 94.85,7403.962 94,7403.958 C93.15,7403.962 92.295,7404.076 91.497,7404.303 C89.586,7402.977 88.746,7403.252 88.746,7403.252 C88.203,7404.664 88.546,7405.707 88.649,7405.966 C88.01,7406.684 87.619,7407.598 87.619,7408.718 C87.619,7412.646 89.954,7413.526 92.175,7413.785 C91.889,7414.041 91.63,7414.493 91.54,7415.156 C90.97,7415.418 89.522,7415.871 88.63,7414.304 C88.63,7414.304 88.101,7413.319 87.097,7413.247 C87.097,7413.247 86.122,7413.234 87.029,7413.87 C87.029,7413.87 87.684,7414.185 88.139,7415.37 C88.139,7415.37 88.726,7417.2 91.508,7416.58 C91.513,7417.437 91.522,7418.245 91.522,7418.489 C91.522,7418.76 91.338,7419.077 90.839,7418.982 C86.865,7417.627 84,7413.783 84,7409.253 C84,7403.59 88.478,7399 94,7399"
+                          id="github-[#142]"
+                        ></path>
+                      </g>
+                    </g>
+                  </g>
+                </svg>
+              </Link>
             </div>
           );
         })}
