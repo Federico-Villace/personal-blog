@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { MOCKS_ICON } from "../../utils/MOCKS";
 
-const Skills = () => {
+const Skills = (): JSX.Element => {
   return (
     <div
       className="flex flex-col items-center justify-center bg-light-yellow p-4"

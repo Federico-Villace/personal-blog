@@ -1,9 +1,8 @@
-import React from "react";
 import Button from "../Button";
 
 const Header = (): JSX.Element => {
   return (
-    <div className="flex items-center w-full lg:h-[150px] sm:h-[250px] bg-yellow border border-b-peach">
+    <div className="flex items-center lg:h-[150px] sm:h-[250px] bg-yellow border border-b-peach">
       <div className="flex flex-wrap items-center w-full mx-[30px] lg:mt-[0px] justify-between">
         <div className="">
           <p className="text-[60px] font-light text-purple drop-shadow-lg">

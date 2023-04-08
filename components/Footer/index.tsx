@@ -3,10 +3,10 @@ import { MOCK_FOOTER } from "../../utils/MOCKS";
 import ReactWhatsapp from "react-whatsapp";
 import Link from "next/link";
 
-const Footer = () => {
+const Footer = (): JSX.Element => {
   return (
     <div
-      className="flex items-center w-full h-[200px] bg-yellow border border-t-peach font-Inconsolata"
+      className="flex items-center h-[200px] bg-yellow border border-t-peach font-Inconsolata"
       id="ContactMe"
     >
       <div className="flex flex-wrap w-full mx-[30px] my-[20px] justify-around">

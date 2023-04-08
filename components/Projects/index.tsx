@@ -4,7 +4,10 @@ import { MOCK_PROJECTS } from "../../utils/MOCKS";
 
 const Projects = (): JSX.Element => {
   return (
-    <div className="bg-light-yellow flex flex-col items-center" id="Projects">
+    <div
+      className="bg-light-yellow w-full flex flex-col items-center"
+      id="Projects"
+    >
       <div className="mt-[30px]">
         <h3 className="text-blue text-6xl p-4 font-Inconsolata">Projects</h3>
       </div>
