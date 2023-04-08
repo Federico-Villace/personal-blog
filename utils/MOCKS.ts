@@ -1,60 +1,72 @@
 export const MOCKS_ICON = [
   {
+    iconTitle: "Github",
     icon: "/images/icons/logo-github.svg",
     alt: "logo-github",
     id: "1",
   },
   {
+    iconTitle: "HTML",
     icon: "/images/icons/logo-html5.svg",
     alt: "logo-html5",
     id: "2",
   },
   {
+    iconTitle: "CSS",
     icon: "/images/icons/logo-css3.svg",
     alt: "logo-css3",
     id: "3",
   },
   {
+    iconTitle: "Tailwind",
     icon: "/images/icons/tailwindcss.svg",
     alt: "tailwindcss",
     id: "4",
   },
   {
+    iconTitle: "NodeJs",
     icon: "/images/icons/logo-nodejs.svg",
     alt: "logo-nodejs",
     id: "5",
   },
   {
+    iconTitle: "ReactJs",
     icon: "/images/icons/logo-react.svg",
     alt: "logo-react",
     id: "6",
   },
   {
+    iconTitle: "NextJs",
     icon: "/images/icons/nextdotjs.svg",
     alt: "nextdotjs",
     id: "7",
   },
   {
+    iconTitle: "TypeScript",
     icon: "/images/icons/tsnode.svg",
     alt: "tsnode",
     id: "8",
   },
   {
+    iconTitle: "PostgreSql",
     icon: "/images/icons/postgresql.svg",
     alt: "postgresql",
     id: "9",
   },
   {
+    iconTitle: "Prisma",
     icon: "/images/icons/prisma.svg",
     alt: "prisma",
     id: "10",
   },
   {
+    iconTitle: "Postman",
     icon: "/images/icons/postman.svg",
     alt: "postman",
     id: "11",
   },
   {
+    iconTitle: "Slack",
     icon: "/images/icons/slack.svg",
     alt: "slack",
     id: "12",

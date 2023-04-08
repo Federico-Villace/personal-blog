@@ -8,7 +8,7 @@ const Projects = (): JSX.Element => {
       <div className="mt-[30px]">
         <h3 className="text-blue text-6xl p-4 font-Inconsolata">Projects</h3>
       </div>
-      <div className="grid  md:grid-cols-1 gap-10 mb-[150px]">
+      <div className="grid  md:grid-cols-1 gap-10 mb-[150px] sm:p-[10px]">
         {MOCK_PROJECTS.map((item, index) => {
           return (
             <div
@@ -16,7 +16,7 @@ const Projects = (): JSX.Element => {
               key={index}
             >
               <div className="lg:col-start-2 md:pl-20">
-                <h4 className="text-2xl font-extrabold leading-8 sm:leading-9 mb-6">
+                <h4 className="text-2xl font-extrabold leading-8 sm:leading-9 mb-6 font-Inconsolata">
                   {item.title}
                 </h4>
                 <ul className="flex flex-col">

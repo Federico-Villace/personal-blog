@@ -10,7 +10,7 @@ const Footer = () => {
       id="ContactMe"
     >
       <div className="flex flex-wrap w-full mx-[30px] my-[20px] justify-around">
-        <div className="flex flex-col text-justify">
+        <div className="flex flex-col text-justify sm:mb-5">
           <h4 className="text-[30px] font-semibold">Contact Me!</h4>
           <p className="font-light text-sm text-gray">
             Tell me about your project and lets find a solution that works for
@@ -20,7 +20,7 @@ const Footer = () => {
         {MOCK_FOOTER.map((item) => {
           return (
             <div
-              className="flex flex-row items-end content-end items-end text-sm text-gray"
+              className="flex flex-row items-end content-end items-end text-sm text-gray gap-[20px]"
               key={item.id}
             >
               <Link className="cursor-pointer" href={`mailto:${item.Email}`}>
@@ -39,10 +39,10 @@ const Footer = () => {
                     y2="6.207"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop offset="0" stop-color="#1ac8fc" />
-                    <stop offset=".258" stop-color="#1bb6fa" />
-                    <stop offset=".775" stop-color="#1c86f5" />
-                    <stop offset="1" stop-color="#1d70f2" />
+                    <stop offset="0" stopColor="#1ac8fc" />
+                    <stop offset=".258" stopColor="#1bb6fa" />
+                    <stop offset=".775" stopColor="#1c86f5" />
+                    <stop offset="1" stopColor="#1d70f2" />
                   </linearGradient>
                   <path
                     fill="url(#NvW_RwTAona1rlOp72mkqa)"
@@ -73,8 +73,8 @@ const Footer = () => {
                   viewBox="0 0 48 48"
                   width="35px"
                   height="35px"
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
+                  fillRule="evenodd"
+                  clipRule="evenodd"
                   className="mb-[3px] mx-[15px] overflow-hidden bg-fixed transition duration-300 ease-in-out hover:opacity-[0.7] hover:scale-110"
                 >
                   <path
@@ -95,9 +95,9 @@ const Footer = () => {
                   />
                   <path
                     fill="#fff"
-                    fill-rule="evenodd"
+                    fillRule="evenodd"
                     d="M19.3,16c-0.4-0.8-0.7-0.8-1.1-0.8c-0.3,0-0.6,0-0.9,0	s-0.8,0.1-1.3,0.6c-0.4,0.5-1.7,1.6-1.7,4s1.7,4.6,1.9,4.9s3.3,5.3,8.1,7.2c4,1.6,4.8,1.3,5.7,1.2c0.9-0.1,2.8-1.1,3.2-2.3	c0.4-1.1,0.4-2.1,0.3-2.3c-0.1-0.2-0.4-0.3-0.9-0.6s-2.8-1.4-3.2-1.5c-0.4-0.2-0.8-0.2-1.1,0.2c-0.3,0.5-1.2,1.5-1.5,1.9	c-0.3,0.3-0.6,0.4-1,0.1c-0.5-0.2-2-0.7-3.8-2.4c-1.4-1.3-2.4-2.8-2.6-3.3c-0.3-0.5,0-0.7,0.2-1c0.2-0.2,0.5-0.6,0.7-0.8	c0.2-0.3,0.3-0.5,0.5-0.8c0.2-0.3,0.1-0.6,0-0.8C20.6,19.3,19.7,17,19.3,16z"
-                    clip-rule="evenodd"
+                    clipRule="evenodd"
                   />
                 </svg>
               </ReactWhatsapp>
