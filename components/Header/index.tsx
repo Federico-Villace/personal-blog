@@ -2,7 +2,7 @@ import Button from "../Button";
 
 const Header = (): JSX.Element => {
   return (
-    <div className="flex items-center lg:h-[150px] sm:h-[250px] bg-yellow border border-b-peach border-r-transparent border-l-transparent">
+    <div className="flex items-center lg:h-[150px] sm:h-[250px] bg-yellow border border-b-peach border-r-transparent border-l-transparent border-t-transparent">
       <div className="flex flex-wrap items-center w-full mx-[30px] lg:mt-[0px] justify-between">
         <div className="">
           <p className="text-[60px] font-light text-purple drop-shadow-lg">

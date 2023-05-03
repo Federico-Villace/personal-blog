@@ -85,8 +85,8 @@ export const MOCK_PROJECTS = [
     id: "1",
   },
   {
-    title: "Eccomerce Project",
-    description: "Eccomerce on development",
+    title: "Init Tecnologies Ecommerce",
+    description: "Ecommerce app with a simple checkout. (Test Data).",
     features:
       "Get one product, simple with the Mercadolibre checkout, or select a bunch, and pay the way you want.",
     src: "https://shopping-cart-black-beta.vercel.app/",
