@@ -71,14 +71,11 @@ const Projects = (): JSX.Element => {
                   </li>
                 </ul>
               </div>
-              <div className="relative mt-10 mx-16 md:mx-12 lg:mt-0 lg:col-start- bg-fixed transition duration-300 ease-in-out hover:scale-110">
+              <div className="relative p-20 mt-10 mx-16 md:mx-12 lg:mt-0 lg:col-start- bg-fixed transition duration-300 ease-in-out hover:scale-110">
                 <Link href={item.src} target={"_blank"}>
-                  <Image
+                  <img
                     src={item.background}
-                    alt="illustration"
-                    className="relative w-auto mx-auto rounded shadow-lg"
-                    width={500}
-                    height={500}
+                    className="w-full aspect-video bg-cover"
                   />
                 </Link>
               </div>

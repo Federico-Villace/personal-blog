@@ -102,6 +102,15 @@ export const MOCK_PROJECTS = [
     background: "/images/backgrounds/Fix-my-english.png",
     id: "3",
   },
+  {
+    title: "AR.Viz",
+    description:
+      "Web page of AR.Viz an architectural visualization and cgi team.",
+    features: "Get in contact with them to get your render.",
+    src: "https://www.almostrealviz.com/",
+    background: "/images/backgrounds/arviz.png",
+    id: "4",
+  },
 ];
 
 export const MOCK_FOOTER = [
