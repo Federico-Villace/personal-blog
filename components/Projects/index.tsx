@@ -73,9 +73,12 @@ const Projects = (): JSX.Element => {
               </div>
               <div className="relative p-20 mt-10 mx-16 md:mx-12 lg:mt-0 lg:col-start- bg-fixed transition duration-300 ease-in-out hover:scale-110">
                 <Link href={item.src} target={"_blank"}>
-                  <img
+                  <Image
                     src={item.background}
-                    className="w-full aspect-video bg-cover"
+                    className="w-full max-h-[300px] bg-cover"
+                    alt={""}
+                    width={500}
+                    height={500}
                   />
                 </Link>
               </div>
