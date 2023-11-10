@@ -9,7 +9,7 @@ const Projects = (): JSX.Element => {
       className="bg-light-yellow w-full flex flex-col items-center"
       id="Projects"
     >
-      <Slide direction="up" duration={500}>
+      <Slide direction="up" duration={500} reverse={false}>
         <div className="mt-[30px]">
           <h3 className="text-blue text-6xl p-4 font-Inconsolata">Projects</h3>
         </div>
@@ -17,7 +17,12 @@ const Projects = (): JSX.Element => {
       <div className="grid  md:grid-cols-1 gap-10 mb-[150px] sm:p-[10px]">
         {MOCK_PROJECTS.map((item, index) => {
           return (
-            <Fade cascade key={index} direction="up" duration={500}>
+            <Fade
+              key={index}
+              direction={`${parseInt(item.id) % 2 === 0 ? "right" : "left"}`}
+              duration={500}
+              reverse={false}
+            >
               <div className="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:items-center mt-10">
                 <div className="lg:col-start-2 md:pl-20">
                   <h4 className="text-2xl font-extrabold leading-8 sm:leading-9 mb-6 font-Inconsolata">
@@ -72,11 +77,11 @@ const Projects = (): JSX.Element => {
                     </li>
                   </ul>
                 </div>
-                <div className="relative p-20 mt-10 mx-16 md:mx-12 lg:mt-0 lg:col-start- bg-fixed transition duration-300 ease-in-out hover:scale-110">
+                <div className="relative lg:p-20 mt-10 mx-16 md:mx-12 lg:mt-0 lg:col-start- bg-fixed transition duration-300 ease-in-out hover:scale-110">
                   <Link href={item.src} target={"_blank"}>
                     <Image
                       src={item.background}
-                      className="w-full max-h-[300px] bg-cover"
+                      className="w-full bg-cover"
                       alt={""}
                       width={500}
                       height={500}
