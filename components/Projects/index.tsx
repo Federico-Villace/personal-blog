@@ -71,7 +71,7 @@ const Projects = (): JSX.Element => {
                   </li>
                 </ul>
               </div>
-              <div className="relative mt-10 mx-16 md:mx-12 lg:mt-0 lg:col-start- bg-fixed transition duration-300 ease-in-out hover:scale-110">
+              <div className="relative mt-10 lg:mx-16 lg:mt-0 lg:col-start- bg-fixed transition duration-300 ease-in-out hover:scale-110">
                 <Link href={item.src} target={"_blank"}>
                   <Image
                     src={item.background}
