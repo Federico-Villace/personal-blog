@@ -8,6 +8,8 @@ const Projects = (): JSX.Element => {
       className="bg-light-yellow w-full flex flex-col items-center pb-10"
       id="Projects"
     >
+      <h3 className="text-blue text-6xl p-4 font-Inconsolata">Projects</h3>
+
       <div
         className="grid md:grid-cols-1 gap-10 mb-[150px] sm:p-[10px]"
         data-aos="fade-up"

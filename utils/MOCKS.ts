@@ -123,4 +123,27 @@ export const MOCK_FOOTER = [
   },
 ];
 
-export const MOCK_PROYECTS_2 = [{}];
+export const MOCK_RECENT_PROJECTS = [
+  {
+    title: "Parque De Invierno",
+    description:
+      "Android App for a winter park in the minicipality of Hurlingham, Buenos Aires, Argentina.",
+    features:
+      "Check the atractions, activities, learn about dinosaurs and much more!",
+    apk: "",
+    src: "https://appetize.io/app/b_k2bhi7nqqmzvkz3pkk64sw5yre?device=pixel7&osVersion=13.0",
+    background: "/images/backgrounds/arviz.png",
+    id: "01",
+  },
+  {
+    title: "Turism AI",
+    description:
+      "App dedicated to tourist, to improve their experience whem they are visiting any city.",
+    features:
+      "Get to know the city with the posts provided by the agency, ask our assistant your consults, translate and check your location with our maps.",
+    apk: "https://drive.google.com/file/d/1EBDNESuLLajsAbBI6GYqwrGVkbsl48US/view",
+    src: "https://appetize.io/app/b_txufdj7szntqg6crmrzjdcjmkm?device=pixel7&osVersion=13.0",
+    background: "/images/backgrounds/arviz.png",
+    id: "02",
+  },
+];
