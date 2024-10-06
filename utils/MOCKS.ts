@@ -132,18 +132,28 @@ export const MOCK_RECENT_PROJECTS = [
       "Check the atractions, activities, learn about dinosaurs and much more!",
     apk: "",
     src: "https://appetize.io/app/b_k2bhi7nqqmzvkz3pkk64sw5yre?device=pixel7&osVersion=13.0",
-    background: "/images/backgrounds/arviz.png",
+    images: [
+      "/dinopark/01.jpg",
+      "/dinopark/02.jpg",
+      "/dinopark/03.jpg",
+      "/dinopark/04.jpg",
+    ],
     id: "01",
   },
   {
     title: "Turism AI",
     description:
-      "App dedicated to tourist, to improve their experience whem they are visiting any city.",
+      "App dedicated to tourist, to improve their experience whem they are visiting any city. (Images are from a newer version)",
     features:
       "Get to know the city with the posts provided by the agency, ask our assistant your consults, translate and check your location with our maps.",
     apk: "https://drive.google.com/file/d/1EBDNESuLLajsAbBI6GYqwrGVkbsl48US/view",
     src: "https://appetize.io/app/b_txufdj7szntqg6crmrzjdcjmkm?device=pixel7&osVersion=13.0",
-    background: "/images/backgrounds/arviz.png",
+    images: [
+      "/turism/01.jpg",
+      "/turism/02.jpg",
+      "/turism/03.jpg",
+      "/turism/04.jpg",
+    ],
     id: "02",
   },
 ];

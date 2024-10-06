@@ -3,6 +3,7 @@ import Footer from "../Footer";
 import Header from "../Header";
 import Projects from "../Projects";
 import Skills from "../Skills";
+import MostRecentProjects from "../MostRecetProjects";
 
 const Landing = (): JSX.Element => {
   return (
@@ -34,6 +35,7 @@ const Landing = (): JSX.Element => {
 
       <Skills />
       <Projects />
+      <MostRecentProjects />
       <Footer />
     </div>
   );
